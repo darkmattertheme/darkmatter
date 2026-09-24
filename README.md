@@ -98,13 +98,15 @@ a {
 | WezTerm | [darkmattertheme/wezterm](https://github.com/darkmattertheme/wezterm) |
 | Alacritty | [darkmattertheme/alacritty](https://github.com/darkmattertheme/alacritty) |
 | st | [darkmattertheme/st](https://github.com/darkmattertheme/st) |
-| Neovim / Vim | [darkmattertheme/darkmatter.nvim](https://github.com/darkmattertheme/darkmatter.nvim) |
+| Neovim / Vim | [darkmattertheme/nvim](https://github.com/darkmattertheme/nvim) |
 | Zed | [darkmattertheme/zed](https://github.com/darkmattertheme/zed) |
-| Yazi | [darkmattertheme/darkmatter.yazi](https://github.com/darkmattertheme/darkmatter.yazi) |
+| Yazi | [darkmattertheme/yazi](https://github.com/darkmattertheme/yazi) |
 | OpenCode | [darkmattertheme/opencode](https://github.com/darkmattertheme/opencode) |
 | Amfora | [darkmattertheme/amfora](https://github.com/darkmattertheme/amfora) |
-| Polybar | [darkmattertheme/polybar](https://github.com/darkmattertheme/polybar) |
-| GTK, xfwm4, Dunst, Rofi | [darkmattertheme/linux](https://github.com/darkmattertheme/linux) |
+| Polybar | [stevedylandev/polybar](https://github.com/stevedylandev/polybar) |
+| GTK 3 / GTK 4, xfwm4 | [darkmattertheme/gtk3](https://github.com/darkmattertheme/gtk3) |
+| Rofi | [darkmattertheme/rofi](https://github.com/darkmattertheme/rofi) |
+| Dunst | [darkmattertheme/dunst](https://github.com/darkmattertheme/dunst) |
 
 ## Changing a color
 

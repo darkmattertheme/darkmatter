@@ -1,7 +1,7 @@
 {
   "name": "Darkmatter",
   "author": "Steve Simkins",
-  "homepage": "https://darkmatter.build",
+  "homepage": "https://darkmattertheme.com",
   "repository": "https://github.com/darkmattertheme/darkmatter",
   "description": "A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.",
   "base16": [
