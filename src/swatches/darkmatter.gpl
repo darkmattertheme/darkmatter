@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Darkmatter
+Columns: 4
+#
+18	17	19	void (base00)
+18	18	18	umbra (base01)
+34	34	34	shadow (base02)
+51	51	51	dust (base03)
+153	153	153	ash (base04)
+193	193	193	starlight (base05)
+153	153	153	vapor (base06)
+193	193	193	halo (base07)
+95	135	135	aurora (base08)
+170	170	170	meteor (base09)
+231	138	83	ember (base0A)
+251	203	151	solar (base0B)
+170	170	170	corona (base0C)
+136	136	136	nebula (base0D)
+153	153	153	pulsar (base0E)
+68	68	68	eclipse (base0F)

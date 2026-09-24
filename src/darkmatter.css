@@ -1,0 +1,42 @@
+/*
+ * Darkmatter
+ * A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.
+ * https://darkmatter.build
+ * Generated from palette.json by build.mjs. Do not edit by hand.
+ */
+
+:root {
+  --darkmatter-void: #121113; /* base00: Background */
+  --darkmatter-umbra: #121212; /* base01: Lighter background */
+  --darkmatter-shadow: #222222; /* base02: Selection background */
+  --darkmatter-dust: #333333; /* base03: Comments, invisibles */
+  --darkmatter-ash: #999999; /* base04: Dark foreground */
+  --darkmatter-starlight: #c1c1c1; /* base05: Default foreground */
+  --darkmatter-vapor: #999999; /* base06: Light foreground */
+  --darkmatter-halo: #c1c1c1; /* base07: Light background */
+  --darkmatter-aurora: #5f8787; /* base08: Variables, tags */
+  --darkmatter-meteor: #aaaaaa; /* base09: Integers, constants */
+  --darkmatter-ember: #e78a53; /* base0A: Classes, search, accent */
+  --darkmatter-solar: #fbcb97; /* base0B: Strings, inserted */
+  --darkmatter-corona: #aaaaaa; /* base0C: Support, escapes */
+  --darkmatter-nebula: #888888; /* base0D: Functions, headings */
+  --darkmatter-pulsar: #999999; /* base0E: Keywords, storage */
+  --darkmatter-eclipse: #444444; /* base0F: Deprecated, embeds */
+
+  --darkmatter-base00: var(--darkmatter-void);
+  --darkmatter-base01: var(--darkmatter-umbra);
+  --darkmatter-base02: var(--darkmatter-shadow);
+  --darkmatter-base03: var(--darkmatter-dust);
+  --darkmatter-base04: var(--darkmatter-ash);
+  --darkmatter-base05: var(--darkmatter-starlight);
+  --darkmatter-base06: var(--darkmatter-vapor);
+  --darkmatter-base07: var(--darkmatter-halo);
+  --darkmatter-base08: var(--darkmatter-aurora);
+  --darkmatter-base09: var(--darkmatter-meteor);
+  --darkmatter-base0A: var(--darkmatter-ember);
+  --darkmatter-base0B: var(--darkmatter-solar);
+  --darkmatter-base0C: var(--darkmatter-corona);
+  --darkmatter-base0D: var(--darkmatter-nebula);
+  --darkmatter-base0E: var(--darkmatter-pulsar);
+  --darkmatter-base0F: var(--darkmatter-eclipse);
+}

@@ -1,0 +1,24 @@
+! Darkmatter
+! A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.
+! https://darkmatter.build
+! Generated from palette.json by build.mjs. Do not edit by hand.
+
+*.background: #121113
+*.foreground: #ffffff
+*.cursorColor: #ffffff
+*.color0: #121113
+*.color1: #5f8787
+*.color2: #fbcb97
+*.color3: #e78a53
+*.color4: #888888
+*.color5: #999999
+*.color6: #aaaaaa
+*.color7: #c1c1c1
+*.color8: #333333
+*.color9: #5f8787
+*.color10: #fbcb97
+*.color11: #e78a53
+*.color12: #888888
+*.color13: #999999
+*.color14: #aaaaaa
+*.color15: #c1c1c1

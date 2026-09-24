@@ -1,0 +1,38 @@
+// Darkmatter
+// A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.
+// https://darkmatter.build
+// Generated from palette.json by build.mjs. Do not edit by hand.
+
+$darkmatter-void: #121113; // base00: Background
+$darkmatter-umbra: #121212; // base01: Lighter background
+$darkmatter-shadow: #222222; // base02: Selection background
+$darkmatter-dust: #333333; // base03: Comments, invisibles
+$darkmatter-ash: #999999; // base04: Dark foreground
+$darkmatter-starlight: #c1c1c1; // base05: Default foreground
+$darkmatter-vapor: #999999; // base06: Light foreground
+$darkmatter-halo: #c1c1c1; // base07: Light background
+$darkmatter-aurora: #5f8787; // base08: Variables, tags
+$darkmatter-meteor: #aaaaaa; // base09: Integers, constants
+$darkmatter-ember: #e78a53; // base0A: Classes, search, accent
+$darkmatter-solar: #fbcb97; // base0B: Strings, inserted
+$darkmatter-corona: #aaaaaa; // base0C: Support, escapes
+$darkmatter-nebula: #888888; // base0D: Functions, headings
+$darkmatter-pulsar: #999999; // base0E: Keywords, storage
+$darkmatter-eclipse: #444444; // base0F: Deprecated, embeds
+
+$darkmatter-base00: $darkmatter-void;
+$darkmatter-base01: $darkmatter-umbra;
+$darkmatter-base02: $darkmatter-shadow;
+$darkmatter-base03: $darkmatter-dust;
+$darkmatter-base04: $darkmatter-ash;
+$darkmatter-base05: $darkmatter-starlight;
+$darkmatter-base06: $darkmatter-vapor;
+$darkmatter-base07: $darkmatter-halo;
+$darkmatter-base08: $darkmatter-aurora;
+$darkmatter-base09: $darkmatter-meteor;
+$darkmatter-base0A: $darkmatter-ember;
+$darkmatter-base0B: $darkmatter-solar;
+$darkmatter-base0C: $darkmatter-corona;
+$darkmatter-base0D: $darkmatter-nebula;
+$darkmatter-base0E: $darkmatter-pulsar;
+$darkmatter-base0F: $darkmatter-eclipse;

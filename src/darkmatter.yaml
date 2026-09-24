@@ -1,0 +1,26 @@
+# Darkmatter
+# A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.
+# https://darkmatter.build
+# Generated from palette.json by build.mjs. Do not edit by hand.
+
+system: "base16"
+name: "Darkmatter"
+author: "Steve Simkins"
+variant: "dark"
+palette:
+  base00: "#121113" # void
+  base01: "#121212" # umbra
+  base02: "#222222" # shadow
+  base03: "#333333" # dust
+  base04: "#999999" # ash
+  base05: "#c1c1c1" # starlight
+  base06: "#999999" # vapor
+  base07: "#c1c1c1" # halo
+  base08: "#5f8787" # aurora
+  base09: "#aaaaaa" # meteor
+  base0A: "#e78a53" # ember
+  base0B: "#fbcb97" # solar
+  base0C: "#aaaaaa" # corona
+  base0D: "#888888" # nebula
+  base0E: "#999999" # pulsar
+  base0F: "#444444" # eclipse

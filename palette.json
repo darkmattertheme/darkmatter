@@ -1,0 +1,39 @@
+{
+  "name": "Darkmatter",
+  "author": "Steve Simkins",
+  "homepage": "https://darkmatter.build",
+  "repository": "https://github.com/darkmattertheme/darkmatter",
+  "description": "A near-black palette with an ember accent, adapted from base16 Black Metal Bathory.",
+  "base16": [
+    { "key": "base00", "name": "void", "hex": "#121113", "role": "Background" },
+    { "key": "base01", "name": "umbra", "hex": "#121212", "role": "Lighter background" },
+    { "key": "base02", "name": "shadow", "hex": "#222222", "role": "Selection background" },
+    { "key": "base03", "name": "dust", "hex": "#333333", "role": "Comments, invisibles" },
+    { "key": "base04", "name": "ash", "hex": "#999999", "role": "Dark foreground" },
+    { "key": "base05", "name": "starlight", "hex": "#c1c1c1", "role": "Default foreground" },
+    { "key": "base06", "name": "vapor", "hex": "#999999", "role": "Light foreground" },
+    { "key": "base07", "name": "halo", "hex": "#c1c1c1", "role": "Light background" },
+    { "key": "base08", "name": "aurora", "hex": "#5f8787", "role": "Variables, tags" },
+    { "key": "base09", "name": "meteor", "hex": "#aaaaaa", "role": "Integers, constants" },
+    { "key": "base0A", "name": "ember", "hex": "#e78a53", "role": "Classes, search, accent" },
+    { "key": "base0B", "name": "solar", "hex": "#fbcb97", "role": "Strings, inserted" },
+    { "key": "base0C", "name": "corona", "hex": "#aaaaaa", "role": "Support, escapes" },
+    { "key": "base0D", "name": "nebula", "hex": "#888888", "role": "Functions, headings" },
+    { "key": "base0E", "name": "pulsar", "hex": "#999999", "role": "Keywords, storage" },
+    { "key": "base0F", "name": "eclipse", "hex": "#444444", "role": "Deprecated, embeds" }
+  ],
+  "terminal": {
+    "background": "#121113",
+    "foreground": "#ffffff",
+    "cursor": "#ffffff",
+    "cursorText": "#121113",
+    "selectionBackground": "#222222",
+    "selectionForeground": "#000000",
+    "ansi": [
+      "#121113", "#5f8787", "#fbcb97", "#e78a53",
+      "#888888", "#999999", "#aaaaaa", "#c1c1c1",
+      "#333333", "#5f8787", "#fbcb97", "#e78a53",
+      "#888888", "#999999", "#aaaaaa", "#c1c1c1"
+    ]
+  }
+}
