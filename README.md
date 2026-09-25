@@ -107,26 +107,33 @@ a {
 
 ## Ports
 
-| Port | Repo |
-| --- | --- |
-| Ghostty | [darkmattertheme/ghostty](https://github.com/darkmattertheme/ghostty) |
-| WezTerm | [darkmattertheme/wezterm](https://github.com/darkmattertheme/wezterm) |
-| Alacritty | [darkmattertheme/alacritty](https://github.com/darkmattertheme/alacritty) |
-| st | [darkmattertheme/st](https://github.com/darkmattertheme/st) |
-| Neovim / Vim | [darkmattertheme/nvim](https://github.com/darkmattertheme/nvim) |
-| Zed | [darkmattertheme/zed](https://github.com/darkmattertheme/zed) |
-| Yazi | [darkmattertheme/yazi](https://github.com/darkmattertheme/yazi) |
-| OpenCode | [darkmattertheme/opencode](https://github.com/darkmattertheme/opencode) |
-| Amfora | [darkmattertheme/amfora](https://github.com/darkmattertheme/amfora) |
-| Polybar | [stevedylandev/polybar](https://github.com/stevedylandev/polybar) |
-| GTK 3 / GTK 4, xfwm4 | [darkmattertheme/gtk3](https://github.com/darkmattertheme/gtk3) |
-| Rofi | [darkmattertheme/rofi](https://github.com/darkmattertheme/rofi) |
-| Dunst | [darkmattertheme/dunst](https://github.com/darkmattertheme/dunst) |
+Every port is listed in [`ports.json`](ports.json), and the website and this table
+are built from it. Want to add one? See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+<!-- ports:start: generated from ports.json by build.mjs -->
+| Port | Category | Repo |
+| --- | --- | --- |
+| Ghostty | Terminal | [darkmattertheme/ghostty](https://github.com/darkmattertheme/ghostty) |
+| WezTerm | Terminal | [darkmattertheme/wezterm](https://github.com/darkmattertheme/wezterm) |
+| Alacritty | Terminal | [darkmattertheme/alacritty](https://github.com/darkmattertheme/alacritty) |
+| st | Terminal | [darkmattertheme/st](https://github.com/darkmattertheme/st) |
+| Neovim | Editor | [darkmattertheme/nvim](https://github.com/darkmattertheme/nvim) |
+| Zed | Editor | [darkmattertheme/zed](https://github.com/darkmattertheme/zed) |
+| TextMate | Editor | [darkmattertheme/textmate](https://github.com/darkmattertheme/textmate) |
+| Yazi | Tools | [darkmattertheme/yazi](https://github.com/darkmattertheme/yazi) |
+| OpenCode | Tools | [darkmattertheme/opencode](https://github.com/darkmattertheme/opencode) |
+| Amfora | Tools | [darkmattertheme/amfora](https://github.com/darkmattertheme/amfora) |
+| Nushell | Shell | [darkmattertheme/nushell](https://github.com/darkmattertheme/nushell) |
+| GTK | Desktop | [darkmattertheme/gtk3](https://github.com/darkmattertheme/gtk3) |
+| Rofi | Desktop | [darkmattertheme/rofi](https://github.com/darkmattertheme/rofi) |
+| Dunst | Desktop | [darkmattertheme/dunst](https://github.com/darkmattertheme/dunst) |
+| Polybar | Desktop | [darkmattertheme/polybar](https://github.com/darkmattertheme/polybar) |
+<!-- ports:end -->
 
 ## Changing a color
 
-`palette.json` is the source of truth. Edit it, then regenerate `src/` and the
-palette circles in `assets/circles/`:
+`palette.json` is the source of truth. Edit it, then regenerate `src/`, the
+palette circles in `assets/circles/` and the ports table above:
 
 ```sh
 node build.mjs   # or: bun build.mjs

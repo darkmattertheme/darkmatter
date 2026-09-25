@@ -1,0 +1,37 @@
+name: Port Request
+description: Suggest an app for a Darkmatter port, or say you're building one.
+title: "Port request: <App>"
+labels: [port-request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Already built the port? Open a [Port Review](https://github.com/darkmattertheme/darkmatter/issues/new?template=port-review.yml) instead.
+  - type: input
+    attributes:
+      label: App
+      description: The app's name and a link to it.
+      placeholder: Helix, https://helix-editor.com
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How can it be themed?
+      description: Link to the app's theming docs, or to an existing theme for it.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Will you build it?
+      description: A port is much more likely to happen if you're up for building it.
+      options:
+        - label: Yes, I'd like to build this port
+  - type: textarea
+    attributes:
+      label: Anything else?
+  - type: checkboxes
+    attributes:
+      label: Checks
+      options:
+        - label: I searched [`ports.json`](https://github.com/darkmattertheme/darkmatter/blob/main/ports.json) and the open issues, and this port doesn't exist yet.
+          required: true

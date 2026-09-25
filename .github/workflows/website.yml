@@ -1,0 +1,24 @@
+# Rebuilds darkmattertheme.com when the port list changes, since the site reads
+# ports.json at build time. Needs a WEB_DEPLOY_HOOK secret holding the site's
+# deploy hook URL. Without it this does nothing.
+name: website
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ports.json]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger a website build
+        env:
+          WEB_DEPLOY_HOOK: ${{ secrets.WEB_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$WEB_DEPLOY_HOOK" ]; then
+            echo "::warning::WEB_DEPLOY_HOOK is not set, so the website was not rebuilt."
+            exit 0
+          fi
+          curl -fsS -X POST "$WEB_DEPLOY_HOOK"

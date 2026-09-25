@@ -1,0 +1,30 @@
+name: Port Review
+description: Your port is built and ready for review.
+title: "Port review: <App>"
+labels: [port-review]
+body:
+  - type: input
+    attributes:
+      label: Repo
+      description: A link to your port's repo.
+      placeholder: https://github.com/you/helix
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: Show the port in use. Drag images in here.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: Parts of the app you couldn't theme, license questions, or anything else reviewers should know.
+  - type: checkboxes
+    attributes:
+      label: Checks
+      options:
+        - label: I followed the [port guidelines](https://github.com/darkmattertheme/darkmatter/blob/main/CONTRIBUTING.md#port-guidelines).
+          required: true
+        - label: The port only uses colors from the Darkmatter palette.
+          required: true

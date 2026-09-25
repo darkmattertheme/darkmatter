@@ -1,0 +1,24 @@
+# Runs the build on every change and fails if ports.json has a problem or if
+# the committed README or palette circles are out of date.
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.mjs
+      - name: Check generated files are committed
+        run: |
+          if ! git diff --exit-code -- README.md assets/circles; then
+            echo "::error::Run 'node build.mjs' and commit the changes."
+            exit 1
+          fi

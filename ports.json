@@ -1,0 +1,139 @@
+{
+  "$comment": "The list of Darkmatter ports. The website and the README table are built from it. See CONTRIBUTING.md.",
+  "categories": [
+    "Terminal",
+    "Editor",
+    "Shell",
+    "Desktop",
+    "Tools",
+    "Foundation"
+  ],
+  "ports": [
+    {
+      "name": "Ghostty",
+      "slug": "ghostty",
+      "category": "Terminal",
+      "url": "https://github.com/darkmattertheme/ghostty",
+      "description": "The home planet. Drop the theme file into Ghostty's themes directory and point your config at it.",
+      "icon": "ghostty",
+      "install": "theme = darkmatter"
+    },
+    {
+      "name": "WezTerm",
+      "slug": "wezterm",
+      "category": "Terminal",
+      "url": "https://github.com/darkmattertheme/wezterm",
+      "description": "A Darkmatter color scheme for WezTerm, as a colors TOML file or a Lua table.",
+      "icon": "wezterm",
+      "install": "config.color_scheme = 'Darkmatter'"
+    },
+    {
+      "name": "Alacritty",
+      "slug": "alacritty",
+      "category": "Terminal",
+      "url": "https://github.com/darkmattertheme/alacritty",
+      "description": "Primary, normal, and bright color blocks in TOML for Alacritty 0.13 and up.",
+      "icon": "alacritty"
+    },
+    {
+      "name": "st",
+      "slug": "st",
+      "category": "Terminal",
+      "url": "https://github.com/darkmattertheme/st",
+      "description": "A colorname block for the suckless simple terminal. Paste it into config.h and rebuild."
+    },
+    {
+      "name": "Neovim",
+      "slug": "neovim",
+      "category": "Editor",
+      "url": "https://github.com/darkmattertheme/nvim",
+      "description": "A full colorscheme with treesitter, LSP, and plugin highlights. Lazy loadable.",
+      "icon": "neovim",
+      "install": "{ \"darkmattertheme/nvim\" }"
+    },
+    {
+      "name": "Zed",
+      "slug": "zed",
+      "category": "Editor",
+      "url": "https://github.com/darkmattertheme/zed",
+      "description": "Darkmatter as a Zed theme extension, covering the editor, terminal, and UI chrome.",
+      "icon": "zed"
+    },
+    {
+      "name": "TextMate",
+      "slug": "textmate",
+      "category": "Editor",
+      "url": "https://github.com/darkmattertheme/textmate",
+      "description": "A .tmTheme for anything that speaks TextMate grammars, including bat and Sublime Text."
+    },
+    {
+      "name": "Yazi",
+      "slug": "yazi",
+      "category": "Tools",
+      "url": "https://github.com/darkmattertheme/yazi",
+      "description": "A Yazi flavor with Darkmatter file colors, icons, and code previews.",
+      "icon": "yazi",
+      "install": "git clone https://github.com/darkmattertheme/yazi ~/.config/yazi/flavors/darkmatter.yazi"
+    },
+    {
+      "name": "OpenCode",
+      "slug": "opencode",
+      "category": "Tools",
+      "url": "https://github.com/darkmattertheme/opencode",
+      "description": "Theme JSON for the OpenCode terminal agent.",
+      "icon": "opencode"
+    },
+    {
+      "name": "Amfora",
+      "slug": "amfora",
+      "category": "Tools",
+      "url": "https://github.com/darkmattertheme/amfora",
+      "description": "Page, link, and modal colors for the Amfora Gemini browser."
+    },
+    {
+      "name": "Nushell",
+      "slug": "nushell",
+      "category": "Shell",
+      "url": "https://github.com/darkmattertheme/nushell",
+      "description": "Syntax and table colors for Nushell, matching the terminal palette exactly.",
+      "icon": "nushell"
+    },
+    {
+      "name": "GTK",
+      "slug": "gtk",
+      "category": "Desktop",
+      "url": "https://github.com/darkmattertheme/gtk3",
+      "description": "GTK 3 and 4 and xfwm4 window decorations, with wallpapers. A whole desktop in the dark.",
+      "icon": "gtk"
+    },
+    {
+      "name": "Rofi",
+      "slug": "rofi",
+      "category": "Desktop",
+      "url": "https://github.com/darkmattertheme/rofi",
+      "description": "A rasi theme for the Rofi launcher."
+    },
+    {
+      "name": "Dunst",
+      "slug": "dunst",
+      "category": "Desktop",
+      "url": "https://github.com/darkmattertheme/dunst",
+      "description": "Notification colors for Dunst, with frames and progress bars keyed to urgency."
+    },
+    {
+      "name": "Polybar",
+      "slug": "polybar",
+      "category": "Desktop",
+      "url": "https://github.com/darkmattertheme/polybar",
+      "description": "The Darkmatter palette as a Polybar colors.ini, ready to include in your bar."
+    },
+    {
+      "name": "Darkmatter",
+      "slug": "darkmatter",
+      "category": "Foundation",
+      "url": "https://github.com/darkmattertheme/darkmatter",
+      "description": "The core palette in CSS, Sass, Less, Stylus, JSON, Xresources, base16, and GIMP swatches.",
+      "icon": "darkmatter"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A bug in a port
+    url: https://github.com/darkmattertheme/darkmatter/blob/main/ports.json
+    about: Open the issue in that port's repo. Every port is listed in ports.json.
+  - name: The website
+    url: https://github.com/darkmattertheme/web/issues
+    about: Problems with darkmattertheme.com go to darkmattertheme/web.
