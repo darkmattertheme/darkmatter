@@ -51,7 +51,22 @@ const files = {
     .join("\n")}\n`,
 };
 
+// Palette circles for the README, one per named color and terminal color
+const circle = (hex) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><circle cx="64" cy="64" r="64" fill="${hex}"/></svg>\n`;
+const snake = (s) => s.replace(/[A-Z]/g, (m) => `_${m.toLowerCase()}`);
+
+for (const c of base16) files[`assets/circles/${c.name}.svg`] = circle(c.hex);
+for (const [k, hex] of Object.entries(terminal)) {
+  if (k !== "ansi") files[`assets/circles/terminal_${snake(k)}.svg`] = circle(hex);
+}
+ansiNames.forEach((n, i) => {
+  files[`assets/circles/ansi_${n}.svg`] = circle(terminal.ansi[i]);
+  files[`assets/circles/ansi_bright_${n}.svg`] = circle(terminal.ansi[i + 8]);
+});
+
 mkdirSync("src/swatches", { recursive: true });
+mkdirSync("assets/circles", { recursive: true });
 for (const [path, body] of Object.entries(files)) {
   writeFileSync(path, body);
   console.log(`wrote ${path}`);
