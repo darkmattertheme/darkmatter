@@ -111,7 +111,7 @@ Every port is listed in [`ports.json`](ports.json), and the website and this tab
 are built from it. Want to add one? See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 <!-- ports:start: generated from ports.json by build.mjs -->
-| Port | Category | Repo |
+| Port | Category | Link |
 | --- | --- | --- |
 | Ghostty | Terminal | [darkmattertheme/ghostty](https://github.com/darkmattertheme/ghostty) |
 | WezTerm | Terminal | [darkmattertheme/wezterm](https://github.com/darkmattertheme/wezterm) |
@@ -128,6 +128,7 @@ are built from it. Want to add one? See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 | Rofi | Desktop | [darkmattertheme/rofi](https://github.com/darkmattertheme/rofi) |
 | Dunst | Desktop | [darkmattertheme/dunst](https://github.com/darkmattertheme/dunst) |
 | Polybar | Desktop | [darkmattertheme/polybar](https://github.com/darkmattertheme/polybar) |
+| shadcn/ui | Web | [tweakcn.com](https://tweakcn.com/editor/theme?theme=darkmatter) |
 <!-- ports:end -->
 
 ## Changing a color

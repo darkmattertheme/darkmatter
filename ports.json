@@ -6,6 +6,7 @@
     "Shell",
     "Desktop",
     "Tools",
+    "Web",
     "Foundation"
   ],
   "ports": [
@@ -126,6 +127,15 @@
       "category": "Desktop",
       "url": "https://github.com/darkmattertheme/polybar",
       "description": "The Darkmatter palette as a Polybar colors.ini, ready to include in your bar."
+    },
+    {
+      "name": "shadcn/ui",
+      "slug": "shadcn",
+      "category": "Web",
+      "url": "https://tweakcn.com/editor/theme?theme=darkmatter",
+      "description": "A shadcn/ui theme for Tailwind CSS v4, built with tweakcn. Open it in the editor to make it your own.",
+      "icon": "shadcn",
+      "install": "bunx shadcn@latest add https://tweakcn.com/r/themes/darkmatter.json"
     },
     {
       "name": "Darkmatter",

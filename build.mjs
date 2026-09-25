@@ -90,13 +90,17 @@ if (problems.length) {
 }
 
 // Ports table in README.md, between the ports:start and ports:end markers
-const repoName = (url) => url.replace(/^https:\/\/github\.com\//, "");
+// GitHub links show as owner/repo, anything else as its host (e.g. tweakcn.com)
+const linkText = (url) => {
+  const { hostname, pathname } = new URL(url);
+  return hostname === "github.com" ? pathname.slice(1) : hostname;
+};
 const table = [
-  "| Port | Category | Repo |",
+  "| Port | Category | Link |",
   "| --- | --- | --- |",
   ...ports
     .filter((port) => port.url !== palette.repository)
-    .map((port) => `| ${port.name}${port.wip ? " (in progress)" : ""} | ${port.category} | [${repoName(port.url)}](${port.url}) |`),
+    .map((port) => `| ${port.name}${port.wip ? " (in progress)" : ""} | ${port.category} | [${linkText(port.url)}](${port.url}) |`),
 ].join("\n");
 const readme = readFileSync("README.md", "utf8");
 const markers = /(<!-- ports:start[^>]*-->)[\s\S]*?(<!-- ports:end -->)/;

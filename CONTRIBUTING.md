@@ -112,7 +112,7 @@ are built from it. Add an entry to the `ports` array:
 | `name` | yes | The app's name, capitalized the way the app does it |
 | `slug` | yes | `lower-kebab-case`, unique |
 | `category` | yes | One of the `categories` at the top of the file |
-| `url` | yes | The port's repo |
+| `url` | yes | The port's repo, or the page it's hosted on if it lives on another site (the shadcn/ui port links to tweakcn) |
 | `description` | yes | One sentence on what the port covers, shown on its card on the site |
 | `install` | no | A single line of config or a command. The site shows it with a copy button |
 | `icon` | no | The app's icon on the site. It has to exist in [darkmattertheme/web](https://github.com/darkmattertheme/web) under `src/icons/`, so leave it out and a maintainer will add one |
